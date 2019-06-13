@@ -1,0 +1,84 @@
+label, button
+{
+	display: block;
+}
+
+.input_block, .test_panel
+{
+  border: solid 1px black;
+  padding: 7px;
+  margin: 7px;
+}
+
+.test_panel > input
+{
+  width: 100%;
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.workspace
+{
+  position: relative;
+  border: solid 1px black;
+  height: 400px;
+}
+
+.node
+{
+	position: absolute;
+  border: solid 1px black;
+  padding: 5px 8px;
+  background-color: white;
+  border-radius: 1px;
+}
+
+.relation
+{
+  position: relative;
+  border: 2px solid #7d7d7d;
+  transform-origin: 0 0;
+}
+
+.node:hover, .relation:hover
+{
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+.relation_arrow
+{
+	position: absolute;
+  left: 67%;
+  top: -16px;
+  font-weight: 600;
+  font-size: 28px;
+  color: grey;
+}
+
+.relation_cond
+{
+	position: absolute;
+  left: 42%;
+  font: 600 18px sans-serif;
+}
+
+.columns
+{
+  display: grid;
+  grid-template-columns: 22% auto;
+}
+
+.case_success
+{
+  border: 2px solid #00ff00;
+}
+
+.case_error
+{
+  border: 2px solid #ff0000;
+}
+
+.node_start, .node_exit
+{
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+}
